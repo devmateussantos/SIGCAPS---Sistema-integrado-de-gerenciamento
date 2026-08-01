@@ -1,2 +1,3 @@
 # SIGCAPS---Sistema-integrado-de-gerenciamento
 Sistema integrado para gerenciamento de unidades dos Centros de Atenção Psicossocial (CAPS), automatizando o cadastro de pacientes, agendamentos, atendimentos e a produção dos profissionais de saúde. 
+O SIGCAPS nasceu da necessidade de resolver um problema real observado no dia a dia de uma unidade do Centro de Atenção Psicossocial (CAPS). O processo de agendamento e consolidação da produção mensal dos profissionais era realizado manualmente, utilizando cadernos e planilhas em papel. Este projeto tem como objetivo transformar esse processo em uma aplicação moderna, documentada e escalável, servindo tanto como ferramenta para a unidade quanto como estudo de caso sobre análise, arquitetura e desenvolvimento de software.
