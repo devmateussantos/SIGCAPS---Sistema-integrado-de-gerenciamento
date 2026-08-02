@@ -13,3 +13,19 @@ Todas as alterações relevantes deste projeto serão documentadas aqui.
 - Definição da arquitetura documental
 - Roadmap inicial
 - Modelo de Domínio iniciado
+
+## [0.2.0]
+
+### Adicionado
+
+- Modelo de Domínio da entidade Paciente.
+
+- Dicionário de Dados da entidade Paciente.
+
+- ADR-004.
+
+### Alterado
+
+- Padronização da documentação da arquitetura.
+
+- Definição oficial dos tipos de dados.
