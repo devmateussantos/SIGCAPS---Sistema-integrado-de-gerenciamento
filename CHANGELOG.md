@@ -52,3 +52,21 @@ Todas as alterações relevantes deste projeto serão documentadas aqui.
 ### Decisões Arquiteturais
 
 - ADR-005 — Separação entre Perfil e Permissões.
+
+---------------------------------------------------
+
+## [0.4.0] - 2026-08-06
+
+### Adicionado
+
+- Modelagem da entidade Agendamento.
+- Definição dos tipos de agendamento (NORMAL e ENCAIXE).
+- Definição dos status do agendamento.
+- Regras de negócio RN-021 a RN-032.
+- Dicionário de Dados da entidade Agendamento.
+- Relacionamentos da entidade Agendamento.
+- Registro de novas evoluções no Product Backlog.
+
+### Alterado
+
+- Padronização da nomenclatura para `criadoPorUsuarioId`.
