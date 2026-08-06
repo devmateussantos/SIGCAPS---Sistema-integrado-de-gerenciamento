@@ -5,7 +5,8 @@
 - [x] Levantamento de requisitos
 - [x] Linguagem Ubíqua
 - [x] Modelo de Domínio - Paciente
-- [ ] Modelo de Domínio - Usuário
+- [x] Modelo de Domínio - Usuário
+- [x] Modelo de Domínio - Perfil
 - [ ] Modelo de Domínio - Agendamento
 - [ ] Modelo de Domínio - Atendimento
 - [ ] Modelo de Domínio - Triagem

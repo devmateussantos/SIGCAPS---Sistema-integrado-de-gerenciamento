@@ -14,6 +14,8 @@ Todas as alterações relevantes deste projeto serão documentadas aqui.
 - Roadmap inicial
 - Modelo de Domínio iniciado
 
+-------------------------------------------
+
 ## [0.2.0]
 
 ### Adicionado
@@ -29,3 +31,24 @@ Todas as alterações relevantes deste projeto serão documentadas aqui.
 - Padronização da documentação da arquitetura.
 
 - Definição oficial dos tipos de dados.
+
+-------------------------------------------
+
+## [0.3.0] - Modelagem de Usuários e Perfil
+
+### Adicionado
+
+- Modelo de Domínio da entidade Usuário.
+- Modelo de Domínio da entidade Perfil.
+- Dicionário de Dados das entidades Usuário e Perfil.
+- Documento Matriz de Permissões v1.0.
+- Campo opcional "matricula" para futura integração com sistemas administrativos.
+
+### Alterado
+
+- Separação entre os conceitos de Usuário, Perfil e Permissões.
+- Definição da estratégia inicial de controle de acesso (RBAC).
+
+### Decisões Arquiteturais
+
+- ADR-005 — Separação entre Perfil e Permissões.

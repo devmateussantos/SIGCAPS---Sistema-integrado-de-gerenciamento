@@ -61,3 +61,12 @@ Todo paciente pertence a apenas um tipo de acompanhamento.
 
 RN-010
 Todo paciente possui um prontuário composto pela linha do tempo dos seus registros.
+
+---
+
+## Relacionamentos
+
+├── 1:N Agendamento
+├── 1:N Atendimento
+├── 1:N Triagem
+└── N:N AtividadeGrupo (por meio da entidade de participação ou da estrutura que definirmos para os participantes)
