@@ -16,7 +16,7 @@ Representar o planejamento dos atendimentos futuros da unidade CAPS, registrando
 
 ## Responsabilidades
 
-- Registrar solicitações de atendimento.
+- Registrar o planejamento dos atendimento.
 - Associar pacientes aos profissionais.
 - Registrar quem realizou o agendamento.
 - Registrar a data prevista.
@@ -48,7 +48,7 @@ RN-025
 O horário específico não será armazenado no MVP.
 
 RN-026
-Um paciente pode possuir vários agendamentos para a mesma data, desde que destinados a profissionais diferentes.
+Um paciente pode possuir múltiplos agendamentos na mesma data, desde que destinados a profissionais diferentes. Não é permitido mais de um agendamento para o mesmo paciente com o mesmo profissional na mesma data.
 
 RN-027
 Um atendimento somente poderá ser iniciado a partir de um agendamento com status AGENDADO.
@@ -57,7 +57,7 @@ RN-028
 Após a conclusão do atendimento, o status do agendamento deverá ser atualizado para REALIZADO.
 
 RN-029
-Agendamentos cancelados permanecem registrados para fins de auditoria.
+Agendamentos com status CANCELADO ou FALTOU permanecem registrados para fins de auditoria e não geram Atendimento.
 
 RN-030
 Agendamentos do tipo ENCAIXE podem ser criados independentemente da abertura oficial da agenda mensal.

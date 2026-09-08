@@ -35,7 +35,7 @@ Todo usuário deve possuir login único.
 
 RN-012
 
-Todo usuário deve possuir e-mail único.
+Todo usuário deve possuir CPF único.
 
 RN-013
 

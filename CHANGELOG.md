@@ -70,3 +70,54 @@ Todas as alterações relevantes deste projeto serão documentadas aqui.
 ### Alterado
 
 - Padronização da nomenclatura para `criadoPorUsuarioId`.
+
+### Decisões Arquiteturais
+- ADR-006 — Representação do encaixe como tipo de agendamento.
+
+---------------------------------------------------
+
+## [0.5.0] - 2026-08-08
+
+### Adicionado
+- Modelagem de Atendimento.
+- Dicionário de Atendimento.
+- Modelagem de Triagem.
+- Dicionário de Triagem.
+- ADR-007 e ADR-008.
+- Regras de negócio RN-034 a RN-054.
+
+### Alterado
+- Relação Agendamento → Atendimento consolidada como 1:0..1.
+- Triagem definida como entidade independente do Atendimento no MVP.
+- Campos de autoria padronizados para criação e alteração.
+
+------------------------------------------------------
+
+## [1.0.0] - 2026-08-29
+
+### Adicionado
+
+- Consolidação do Modelo de Domínio do MVP.
+- Modelo de Domínio da Atividade em Grupo.
+- MER v1.0 consolidado.
+- Dicionários de Dados consolidados.
+- Modelo Geral de Domínio Consolidado v1.0.
+- Entidade AtividadeGrupoParticipante.
+- Consolidação das regras de negócio da Fase 1.
+
+### Alterado
+
+- Padronização e consolidação das entidades e relacionamentos do MVP.
+- Atualização do Dicionário de Dados Consolidado.
+- Atualização do Modelo Geral de Domínio.
+- Padronização das nomenclaturas das entidades e atributos.
+
+### Documentação
+
+- Consolidação das decisões arquiteturais da Fase 1.
+- Revisão cruzada entre Modelo de Domínio, MER e Dicionários de Dados.
+- Registro das funcionalidades futuras no Product Backlog.
+
+### Status
+
+- Fase 1 — Análise, Modelagem e Documentação: **CONCLUÍDA**.

@@ -7,12 +7,14 @@
 - [x] Modelo de Domínio - Paciente
 - [x] Modelo de Domínio - Usuário
 - [x] Modelo de Domínio - Perfil
-- [ ] Modelo de Domínio - Agendamento
-- [ ] Modelo de Domínio - Atendimento
-- [ ] Modelo de Domínio - Triagem
-- [ ] Modelo de Domínio - Atividade em Grupo
-- [ ] MER v1.0
-- [ ] Dicionário de Dados
+- [x] Modelo de Domínio - Agendamento
+- [x] Modelo de Domínio - Atendimento
+- [x] Modelo de Domínio - Triagem
+- [x] Relacionamentos entre Agendamento, Atendimento e Triagem.
+- [x] Modelo de Domínio - Atividade em Grupo
+- [x] MER v1.0
+- [x] Dicionário de Dados
+- [x] Consolidação do modelo geral do domínio.
 
 ## Fase 2
 
@@ -30,3 +32,12 @@
 ## Fase 5
 
 - [ ] Deploy
+
+## Pós-MVP
+- Acompanhamento diário de pacientes intensivos.
+- Histórico de alterações de Agendamento.
+- Remarcação.
+- Origem do Agendamento.
+- Evolução clínica estruturada.
+- Dashboard gerencial.
+- Auditoria/histórico avançado.

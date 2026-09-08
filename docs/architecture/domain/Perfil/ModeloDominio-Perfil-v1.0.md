@@ -12,16 +12,16 @@
 
 ## Objetivo
 
-Definir as permissões dos usuários dentro do sistema SIGCAPS.
+Definir as funções dos usuários e servir como referência para a determinação de suas permissões dentro do sistema SIGCAPS.
 
 ---
 
 ## Responsabilidades
 
-A entidade Usuário é responsável por:
+A entidade Perfil é responsável por:
 
-- Identificar a responsabilidade de cada usuário.
-- Distribuir as permissões dos usuários
+- Representar uma função dentro do sistema.
+- Servir como referência para as permissões associadas aos usuários.
 ---
 
 ## Regras de Negócio
@@ -42,4 +42,4 @@ Um perfil pode estar associado a vários usuários.
 
 ## Relacionamentos
 
-├── N:1 Perfil
+├── 1:N Usuário
